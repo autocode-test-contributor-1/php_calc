@@ -3,7 +3,7 @@
 
 use PHPUnit\Framework\TestCase;
 
-require __DIR__ . "../src/mini/MiniCalc.php";
+require __DIR__ . "/../src/mini/MiniCalc.php";
 
 
 class MiniCalcTest extends TestCase
