@@ -2,7 +2,6 @@
 
 use PHPUnit\Framework\TestCase;
 
-require __DIR__ . "/../../src/super/SuperMiniCalculator.php";
 
 class SuperMiniCalculatorTest extends TestCase
 {
