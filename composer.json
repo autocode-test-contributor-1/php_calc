@@ -4,7 +4,11 @@
   },
   "autoload": {
     "classmap": [
-      "src/*"
+      "src/"
+    ],
+    "files": [
+      "src/mini/MiniCalc.php",
+      "src/super/SuperMiniCalculator.php"
     ]
   }
 }
