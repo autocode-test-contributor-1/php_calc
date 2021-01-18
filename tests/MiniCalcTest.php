@@ -3,6 +3,8 @@
 
 use PHPUnit\Framework\TestCase;
 
+require "../src/mini/MiniCalc.php";
+
 
 class MiniCalcTest extends TestCase
 {
