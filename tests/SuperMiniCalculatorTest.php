@@ -2,6 +2,7 @@
 
 use PHPUnit\Framework\TestCase;
 
+require_once __DIR__ . "/../src/super/SuperMiniCalculator.php";
 
 class SuperMiniCalculatorTest extends TestCase
 {
@@ -14,12 +15,11 @@ class SuperMiniCalculatorTest extends TestCase
 
     public function testMultiply()
     {
-        $this->assertEquals(8, $this->superCalc->multiply(6, 2, 2));
+        $this->assertEquals(27, $this->superCalc->multiply(3, 3, 3));
     }
 
     public function testAdd()
     {
-        $this->markTestSkipped('must be revisited.');
         $this->assertEquals(6, $this->superCalc->add(2, 2, 2));
     }
 }

@@ -2,7 +2,7 @@
 
 use PHPUnit\Framework\TestCase;
 
-require __DIR__ . "/../../src/super/SuperMiniCalculator.php";
+require_once __DIR__ . "/../src/super/SuperMiniCalculator.php";
 
 class SecondSuperMiniCalculatorTest extends TestCase
 {
@@ -15,8 +15,7 @@ class SecondSuperMiniCalculatorTest extends TestCase
 
     public function testMultiply()
     {
-        $this->markTestSkipped('must be revisited.');
-        $this->assertEquals(8, $this->superCalc->multiply(6, 2, 2));
+        $this->assertEquals(24, $this->superCalc->multiply(6, 2, 2));
     }
 
     public function testAdd()

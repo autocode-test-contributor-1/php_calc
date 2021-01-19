@@ -3,7 +3,7 @@
 
 use PHPUnit\Framework\TestCase;
 
-require __DIR__ . "/../src/mini/MiniCalc.php";
+require_once __DIR__ . "/../src/mini/MiniCalc.php";
 
 
 class MiniCalcTest extends TestCase
@@ -24,7 +24,7 @@ class MiniCalcTest extends TestCase
 
     public function testDivide()
     {
-        $this->assertEquals(4, $this->calc->divide(16, 0));
+        $this->assertEquals(8, $this->calc->divide(16, 2));
     }
 
     public function testAdd(): void
@@ -34,6 +34,6 @@ class MiniCalcTest extends TestCase
 
     public function testSubtract()
     {
-        $this->assertEquals(6, $this->calc->subtract(8, 6));
+        $this->assertEquals(2, $this->calc->subtract(8, 6));
     }
 }
