@@ -23,4 +23,5 @@ class SecondSuperMiniCalculatorTest extends TestCase
     {
         $this->assertEquals(6, $this->superCalc->add(2, 2, 2));
     }
+
 }

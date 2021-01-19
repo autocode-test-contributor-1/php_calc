@@ -22,4 +22,5 @@ class SuperMiniCalculatorTest extends TestCase
         $this->markTestSkipped('must be revisited.');
         $this->assertEquals(6, $this->superCalc->add(2, 2, 2));
     }
+
 }
