@@ -22,5 +22,4 @@ class MiniCalc
         if ($y == 0) return 0;
         return $x / $y;
     }
-
 }

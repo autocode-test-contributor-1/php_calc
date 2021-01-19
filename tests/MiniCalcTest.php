@@ -36,5 +36,4 @@ class MiniCalcTest extends TestCase
     {
         $this->assertEquals(6, $this->calc->subtract(8, 6));
     }
-
 }
