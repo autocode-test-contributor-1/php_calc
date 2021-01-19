@@ -25,6 +25,7 @@ class MiniCalcTest extends TestCase
     public function testDivide()
     {
         $this->assertEquals(8, $this->calc->divide(16, 2));
+        $this->assertEquals(0, $this->calc->divide(16, 0));
     }
 
     public function testAdd(): void
