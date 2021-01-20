@@ -13,12 +13,12 @@ class SecondSuperMiniCalculatorTest extends TestCase
         $this->superCalc = new SuperMiniCalculator();
     }
 
-    public function testMultiply()
+    public function testMultiplySecondSuper()
     {
         $this->assertEquals(24, $this->superCalc->multiply(6, 2, 2));
     }
 
-    public function testAdd()
+    public function testAddSecondSuper()
     {
         $this->assertEquals(6, $this->superCalc->add(2, 2, 2));
     }
