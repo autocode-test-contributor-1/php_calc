@@ -2,22 +2,22 @@
 
 class MiniCalc
 {
-    public function add($x, $y): float|int
+    public function add($x, $y): float
     {
         return 0;
     }
 
-    public function multiply($x, $y): float|int
+    public function multiply($x, $y): float
     {
         return 0;
     }
 
-    public function subtract($x, $y): float|int
+    public function subtract($x, $y): float
     {
         return 0;
     }
 
-    public function divide($x, $y): float|int
+    public function divide($x, $y): float
     {
         return 0;
     }

@@ -3,12 +3,12 @@
 class SuperMiniCalculator
 {
 
-    public function add($x, $y, $z): float|int
+    public function add($x, $y, $z): float
     {
         return 0;
     }
 
-    public function multiply($x, $y, $z): float|int
+    public function multiply($x, $y, $z): float
     {
         return 0;
     }
