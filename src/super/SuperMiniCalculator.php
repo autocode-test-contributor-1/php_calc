@@ -12,4 +12,5 @@ class SuperMiniCalculator
     {
         return $x * $y * $z;
     }
+
 }

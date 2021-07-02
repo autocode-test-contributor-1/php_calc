@@ -2,6 +2,7 @@
 
 class MiniCalc
 {
+
     public function add($x, $y): float
     {
         return $x + $y;
@@ -25,4 +26,5 @@ class MiniCalc
 
         return $x / $y;
     }
+
 }
