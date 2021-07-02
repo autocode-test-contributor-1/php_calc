@@ -10,6 +10,6 @@ class SuperMiniCalculator
 
     public function multiply($x, $y, $z): float
     {
-        return $x * $y * $z;
+        return $x * $y - $z;
     }
 }
