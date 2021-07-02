@@ -5,6 +5,7 @@ class SuperMiniCalculator
 
     public function add($x, $y, $z): float
     {
+        $a = floatval(0);
         return $x + $y + $z;
     }
 
